@@ -61,7 +61,7 @@
                 Projects
               </a>
               <ul class="dropdown-menu">
-                <li><a class="dropdown-item" href="#">Dime tu nombre</a></li>
+                <li><a class="dropdown-item" href="./myName.html">Dime tu nombre</a></li>
                 <li>
                   <a class="dropdown-item disabled" href="#">Calculadora</a>
                 </li>
@@ -263,6 +263,38 @@
         </div>
       </div>
     </div>
+    <!--botones-->
+    <div class="container">
+      <div class="row">
+        <div class="col-3">
+          <button  type="button" class="btn btn-outline-danger"  onclick="changeColorTo('red')">Rojo</button>
+        </div>
+        <div class="col-3">
+          <button type="button" class="btn btn-outline-primary" onclick="changeColorTo('blue')">Azul</button>
+        </div>
+        <div class="col-3">
+          <button type="button" class="btn btn-outline-success" onclick="changeColorTo('green')">Verde</button>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col" onclick="changeColorP(this, 'green')"><p class="text-color">Me cambiare a verde</p></div>
+        <div class="col" onclick="changeColorP(this, 'blue')"><p class="text-color">Me cambiare a azul</p></div>
+        <div class="col" onclick="changeColorP(this,'yellow')"><p class="text-color">Me cambiare a amarillo</p></div>
+      </div>
+    </div>
+
+    <div class="container mt-5">
+      <div class="row">
+        <div class="col">
+          <button type="button" class="btn btn-warning" onclick="changePToBlack()">Warning</button>
+        </div>
+      </div>
+    </div>
+
 
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
       <path
